@@ -2,6 +2,7 @@ import loadHome from './home-load.js';
 import tabLoad from './tab-load.js';
 import loadContact from './contact-load.js';
 import loadMenu from './menu-load.js';
+import './style.css';
 
 loadHome();
 tabLoad();

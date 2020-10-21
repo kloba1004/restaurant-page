@@ -1,3 +1,5 @@
+import image from './restaurant.jpg';
+
 const loadHome = () => {
     let content = document.getElementById('content');
 
@@ -9,11 +11,11 @@ const loadHome = () => {
     };
 
     const imgLoad = () => {
-        let img = document.createElement('img');
+        const myImage = new Image();
 
-        img.src = '../images/restaurant.jpg';
-        img.alt = 'restaurant interior';
-        return img;
+        myImage.src = image;
+        myImage.alt = 'restaurant interior';
+        return myImage;
     };
 
     const paragraphLoad = () => {
