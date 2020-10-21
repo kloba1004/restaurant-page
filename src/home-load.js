@@ -11,7 +11,7 @@ const loadHome = () => {
     const imgLoad = () => {
         let img = document.createElement('img');
 
-        img.src = '/images/restaurant.jpg';
+        img.src = '../images/restaurant.jpg';
         img.alt = 'restaurant interior';
         return img;
     };
